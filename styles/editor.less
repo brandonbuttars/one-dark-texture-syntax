@@ -3,8 +3,14 @@
 
 atom-text-editor, // <- remove when Shadow DOM can't be disabled
 :host {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
   background-color: @syntax-background-color;
+
   color: @syntax-text-color;
+
+  .underlayer {
+    background: @syntax-background-color url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/black-linen-tinted.png") repeat left top;
+  }
 
   .line.cursor-line {
     background-color: @syntax-cursor-line;
