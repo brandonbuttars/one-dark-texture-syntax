@@ -9,7 +9,41 @@ atom-text-editor, // <- remove when Shadow DOM can't be disabled
   color: @syntax-text-color;
 
   .underlayer {
-    background: @syntax-background-color url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/black-linen-tinted.png") repeat left top;
+    // &:before {
+    //   content: ' ';
+    //   display: block;
+    //   width: 100px;
+    //   height: 100%;
+    //   background: red;
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    // }
+    background-color: @syntax-background-color;
+
+    // dark linen
+    // background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/black-linen-tinted.png");
+
+    // triangles
+    // background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/triangles.png");
+
+    // inflicted
+    background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/inflicted.png");
+
+    // crissXcross
+    // background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/crissXcross.png");
+
+    // padded
+    // background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/padded.png");
+
+    // tactile_noise
+    // background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/tactile_noise.png");
+
+    // px_by_Gre3g
+    // background-image: url("http://406b659129e155e2ac6d-a85506a649db336d66c402e9b3bf996a.r54.cf2.rackcdn.com/atom/one-dark-texture/px_by_Gre3g.png");
+
+    background-repeat: repeat;
+    background-position: left top;
   }
 
   .line.cursor-line {
